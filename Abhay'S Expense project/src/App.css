@@ -1,0 +1,18 @@
+.big_Box{
+    margin: 0 auto ;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(47, 46, 46);
+    width: 40rem;
+}
+
+.form_Style button{
+    background-color: rgb(80, 8, 63);
+    color: rgb(245, 14, 206);
+    padding: 1rem;
+    border-radius: 12px;
+}
+.form_Style input{
+    display: grid;
+    grid-template-rows: 25% 25%;
+}

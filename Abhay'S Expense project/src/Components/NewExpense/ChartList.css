@@ -1,0 +1,30 @@
+.chart_Bar{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chart_Bar_Inner{
+    height: 100%;
+    width: 65%;
+    border: solid 1px black;
+    border-radius: 12px;
+    background-color: rgb(215, 144, 212);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.chart_Bar_Fill{
+    background-color: blueviolet;
+    width: 100%;
+    transition: all 0.3s ease-out;
+
+}
+
+.chart_Bar_Lable{
+    font-weight: bold;
+    font-size: 0.6rem;
+    
+}

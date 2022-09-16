@@ -1,0 +1,9 @@
+.filter_Bg label{
+    color: rgb(252, 247, 247);
+    font-weight: bold;
+}
+.filter_Bg{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
